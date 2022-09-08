@@ -29,8 +29,3 @@ def create_pastebin_note(api_dev_key, text):
     return response.content
 
 
-
-
-# img_description = get_nasa_image_json("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2020-01-01")[1]
-# print(create_pastebin_note(API_DEV_KEY, img_description))
-
