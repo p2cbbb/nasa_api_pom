@@ -1,7 +1,7 @@
 import requests
 
 
-API_DEV_KEY = 'kq-BkSPRUjOF-3rkI8ZFsh3ApyurKhXo'
+API_DEV_KEY = 'w3wk1dV2-8pUP9WIYOlmD2x8FZEQ_rDZ'
 
 
 def get_nasa_image_json(url):

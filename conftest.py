@@ -10,7 +10,7 @@ def browser(request):
     options = Options()
     options.add_argument("--disable-notifications")
     options.page_load_strategy = 'normal'
-    browser = webdriver.Chrome(options=options)
+    browser = webdriver.Chrome(options=options, executable_path=r"C:\chromedriver.exe")
     yield browser
     print("\nquit browser..")
     browser.quit()
