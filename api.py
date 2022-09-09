@@ -1,7 +1,7 @@
 import os
 import requests
 
-api_dev_key = os.environ.get('API_KEY')
+api_dev_key = os.environ.get('PASTEBIN_API_KEY')
 
 
 def get_nasa_image_json(url):
