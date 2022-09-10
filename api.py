@@ -28,4 +28,3 @@ def create_pastebin_note(api_dev_key, text):
     response = requests.post("https://pastebin.com/api/api_post.php", headers=headers, data=data)
     return response.content
 
-
